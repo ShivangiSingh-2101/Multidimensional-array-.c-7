@@ -18,3 +18,17 @@ Algorithm:
 - Input the element at [row][column].
 - Display the matrix by printing each element in row-wise order.
 - End.
+Aim:
+Write a C++ program to add two matrices and display the result.
+Theory:
+Matrix addition is the operation of adding two matrices by adding the corresponding elements together. For two matrices to be added, they must have the same dimensions (same number of rows and columns).
+Algorithm:
+-Start.
+-Input the number of rows (rows) and columns (cols).
+-Input the elements of the first matrix A.
+-Input the elements of the second matrix B.
+-For each element position (i, j):
+- Calculate sum matrix element C[i][j] = A[i][j] + B[i][j].
+- Display the resultant matrix C.
+-End.
+
