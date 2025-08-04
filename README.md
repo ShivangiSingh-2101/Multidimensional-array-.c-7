@@ -1,3 +1,4 @@
+Program 1
 Aim:
 Write a C++ program to accept a matrix from the user and display the matrix.
 
@@ -18,6 +19,8 @@ Algorithm:
 - Input the element at [row][column].
 - Display the matrix by printing each element in row-wise order.
 - End.
+
+ Program 2
 Aim:
 Write a C++ program to add two matrices and display the result.
 Theory:
