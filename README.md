@@ -26,14 +26,14 @@ Write a C++ program to add two matrices and display the result.
 Theory:
 Matrix addition is the operation of adding two matrices by adding the corresponding elements together. For two matrices to be added, they must have the same dimensions (same number of rows and columns).
 Algorithm:
--Start.
--Input the number of rows (rows) and columns (cols).
--Input the elements of the first matrix A.
--Input the elements of the second matrix B.
--For each element position (i, j):
+- Start.
+- Input the number of rows (rows) and columns (cols).
+- Input the elements of the first matrix A.
+- Input the elements of the second matrix B.
+- For each element position (i, j):
 - Calculate sum matrix element C[i][j] = A[i][j] + B[i][j].
 - Display the resultant matrix C.
--End.
+- End.
   Program 3
 Aim:
 Write a C++ program to multiply two matrices and display the result.
@@ -41,17 +41,17 @@ Theory:
 Matrix multiplication is not element-wise. To multiply two matrices:
 
  Algorithm:
--Start.
--Input dimensions of matrix A (rows1, cols1).
--Input dimensions of matrix B (rows2, cols2).
--Check if cols1 == rows2. If not, multiplication is not possible.
--Input matrix A elements.
--Input matrix B elements.
--For each i in 0 to rows1-1 and j in 0 to cols2-1:
--Initialize C[i][j] = 0
--For each k in 0 to cols1-1, do C[i][j] += A[i][k] * B[k][j]
--Print resulting matrix C.
--End.
+- Start.
+- Input dimensions of matrix A (rows1, cols1).
+- Input dimensions of matrix B (rows2, cols2).
+- Check if cols1 == rows2. If not, multiplication is not possible.
+- Input matrix A elements.
+- Input matrix B elements.
+- For each i in 0 to rows1-1 and j in 0 to cols2-1:
+- Initialize C[i][j] = 0
+- For each k in 0 to cols1-1, do C[i][j] += A[i][k] * B[k][j]
+- Print resulting matrix C.
+- End.
  Program 4
  Aim:
 Write a C++ program to calculate the sum of the main diagonal and secondary diagonal elements of a square matrix.
@@ -64,13 +64,13 @@ Secondary diagonal: elements from top-right to bottom-left
 → Positions where row index + column index = n - 1, i.e., matrix[i][n-1-i]
 
 Algorithm:
--Start.
--Input the size n of the square matrix.
--Declare a 2D array or vector of size n x n.
--Input all matrix elements.
--Initialize main_sum = 0 and secondary_sum = 0.
--For each row i from 0 to n-1:
--Add matrix[i][i] to main_sum
--Add matrix[i][n - 1 - i] to secondary_sum
--Display the diagonal sums.
--End.
+- Start.
+- Input the size n of the square matrix.
+- Declare a 2D array or vector of size n x n.
+- Input all matrix elements.
+- Initialize main_sum = 0 and secondary_sum = 0.
+- For each row i from 0 to n-1:
+- Add matrix[i][i] to main_sum
+- Add matrix[i][n - 1 - i] to secondary_sum
+- Display the diagonal sums.
+- End.
