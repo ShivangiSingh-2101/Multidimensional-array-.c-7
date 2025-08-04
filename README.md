@@ -52,4 +52,25 @@ Matrix multiplication is not element-wise. To multiply two matrices:
 -For each k in 0 to cols1-1, do C[i][j] += A[i][k] * B[k][j]
 -Print resulting matrix C.
 -End.
-  
+ Program 4
+ Aim:
+Write a C++ program to calculate the sum of the main diagonal and secondary diagonal elements of a square matrix.
+Theory:
+In a square matrix of size n x n:
+Main diagonal (also called the primary diagonal): elements from top-left to bottom-right
+→ Positions where row index = column index, i.e., matrix[i][i]
+
+Secondary diagonal: elements from top-right to bottom-left
+→ Positions where row index + column index = n - 1, i.e., matrix[i][n-1-i]
+
+Algorithm:
+-Start.
+-Input the size n of the square matrix.
+-Declare a 2D array or vector of size n x n.
+-Input all matrix elements.
+-Initialize main_sum = 0 and secondary_sum = 0.
+-For each row i from 0 to n-1:
+-Add matrix[i][i] to main_sum
+-Add matrix[i][n - 1 - i] to secondary_sum
+-Display the diagonal sums.
+-End.
