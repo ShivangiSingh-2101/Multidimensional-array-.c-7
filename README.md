@@ -78,3 +78,20 @@ Algorithm:
 - Add matrix[i][n - 1 - i] to secondary_sum
 - Display the diagonal sums.
 - End.
+
+Program 5 
+
+Aim:
+Write a C++ program to find and display the transpose of a given matrix.
+
+ Theory:
+The transpose of a matrix is formed by swapping its rows with columns.
+
+Algorithm:
+- Start.
+- Input number of rows m and columns n.
+- Input the elements of the matrix.
+- Create a transpose matrix of size n x m.
+- For each element at position (i, j), assign transpose[j][i] = matrix[i][j].
+- Display the transpose matrix.
+- End
