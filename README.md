@@ -34,4 +34,22 @@ Algorithm:
 - Calculate sum matrix element C[i][j] = A[i][j] + B[i][j].
 - Display the resultant matrix C.
 -End.
+  Program 3
+Aim:
+Write a C++ program to multiply two matrices and display the result.
+Theory:
+Matrix multiplication is not element-wise. To multiply two matrices:
 
+ Algorithm:
+-Start.
+-Input dimensions of matrix A (rows1, cols1).
+-Input dimensions of matrix B (rows2, cols2).
+-Check if cols1 == rows2. If not, multiplication is not possible.
+-Input matrix A elements.
+-Input matrix B elements.
+-For each i in 0 to rows1-1 and j in 0 to cols2-1:
+-Initialize C[i][j] = 0
+-For each k in 0 to cols1-1, do C[i][j] += A[i][k] * B[k][j]
+-Print resulting matrix C.
+-End.
+  
