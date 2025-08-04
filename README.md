@@ -13,8 +13,8 @@ Algorithm:
 - Ask the user to enter the number of rows (rows).
 - Ask the user to enter the number of columns (cols).
 - Declare a 2D vector (or array) to store the matrix elements.
-For each row from 0 to rows-1:
-For each column from 0 to cols-1:
-Input the element at [row][column].
-Display the matrix by printing each element in row-wise order.
-End.
+- For each row from 0 to rows-1:
+- For each column from 0 to cols-1:
+- Input the element at [row][column].
+- Display the matrix by printing each element in row-wise order.
+- End.
