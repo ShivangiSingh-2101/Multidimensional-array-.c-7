@@ -34,6 +34,8 @@ Algorithm:
 - Calculate sum matrix element C[i][j] = A[i][j] + B[i][j].
 - Display the resultant matrix C.
 - End.
+
+
   Program 3
 Aim:
 Write a C++ program to multiply two matrices and display the result.
@@ -52,6 +54,8 @@ Matrix multiplication is not element-wise. To multiply two matrices:
 - For each k in 0 to cols1-1, do C[i][j] += A[i][k] * B[k][j]
 - Print resulting matrix C.
 - End.
+
+ 
  Program 4
  Aim:
 Write a C++ program to calculate the sum of the main diagonal and secondary diagonal elements of a square matrix.
